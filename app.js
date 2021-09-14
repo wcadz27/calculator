@@ -88,23 +88,3 @@ document.querySelector(".op__key[op=negate]")
     ($input.value = -parseFloat($input.value));
 }
 
-// divideBtn = document.getElementsByClassName("divide");
-// timesBtn = document.getElementsByClassName("times");
-// minusBtn = document.getElementsByClassName("minus");
-// plusBtn = document.getElementsByClassName("plus");
-// equalsBtn = document.getElementsByClassName("equals");
-
-// clearBtn = document.getElementsByClassName("clear");
-// posnegBtn = document.getElementsByClassName("pos-neg");
-// percentBtn = document.getElementsByClassName("percent");
-
-// decimalBtn = document.getElementsByClassName("decimal");
-
-
-// function inputNum(e) {
-//     const num = document.querySelector(`.num[data-key="${e.keyCode}"]`);
-    
-// }
-
-
-// window.addEventListener('keydown', inputNum);
