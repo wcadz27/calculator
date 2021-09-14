@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <div class="calc">
+        <input class="top" type="number" value=0>
+        <div class="btns">
+            <div class="right">
+                <button id ="btn" class="op__key" op="divide">/</button>
+                <button id ="btn" class="op__key" op="multiply">*</button>
+                <button id ="btn" class="op__key" op="subtract">-</button>
+                <button id ="btn" class="op__key" op="add">+</button>
+                <button id ="btn" class="equals">=</button>
+            </div>
+            <div class="center">
+                <button id ="btn" class="op__key" op="clear" data-loc="up">AC</button>
+                <button id ="btn" class="op__key" op="negate" data-loc="up">+/-</button>
+                <button id ="btn" class="op__key" op="percent" data-loc="up">%</button>
+                <button id ="btn" class="num" data-key="57" data-loc="down">9</button>
+                <button id ="btn" class="num" data-key="56" data-loc="down">8</button>
+                <button id ="btn" class="num" data-key="55" data-loc="down">7</button>
+                <button id ="btn" class="num" data-key="54" data-loc="down">6</button>
+                <button id ="btn" class="num" data-key="53" data-loc="down">5</button>
+                <button id ="btn" class="num" data-key="52" data-loc="down">4</button>
+                <button id ="btn" class="num" data-key="51" data-loc="down">3</button>
+                <button id ="btn" class="num" data-key="50" data-loc="down">2</button>
+                <button id ="btn" class="num"  data-key="49" data-loc="down">1</button>
+                <button class="num" data-key="48" data-loc="down">0</button>
+                <button id ="btn" class="decimal" data-loc="down">.</button>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
